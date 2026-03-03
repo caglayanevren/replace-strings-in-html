@@ -1,11 +1,14 @@
 {
-  "name": "replace-strings-in-html",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/caglayanevren/replace-strings-in-html.git",
-  "author": "Evren Caglayan <caglayanevren@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "replace-in-file": "^5.0.2"
-  }
+    "name": "replace-strings-in-html",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/caglayanevren/replace-strings-in-html.git",
+    "author": "Evren Caglayan <caglayanevren@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "replace-in-file": "^5.0.2"
+    },
+    "overrides": {
+        "minimatch": "^3.1.5"
+    }
 }
